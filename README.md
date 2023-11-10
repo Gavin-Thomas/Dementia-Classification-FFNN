@@ -18,4 +18,3 @@ The code executes and produces a binary classification output to identify dement
 The code, which is included in the appendix, was developed with emphasis on readability and adhering to coding standards.
 ### **Challenges and Solutions**
 While the program does not execute flawlessly, with a precision of 15%, the report details the challenges faced and solutions implemented, including future strategies to improve precision such as adjusting the decision threshold and exploring ensemble methods.
-![image](https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/assets/123608443/866a4f24-0108-40c3-8170-36798f4547bd)
