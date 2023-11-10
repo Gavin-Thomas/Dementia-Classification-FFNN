@@ -1,5 +1,7 @@
 # **Dementia-Classification-FFNN**
 
+![image]()
+
 [LINK TO JUPYTER NOTEBOOK](https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/DementiaFFNN.ipynb)
 
 ### **Problem Description**
