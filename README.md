@@ -43,8 +43,8 @@ Challenges included class imbalance (addressed with SMOTE), beginner-level machi
 Due to data privacy, only the Jupyter notebook and the preprocessed CSV file are available on Github.
 
 ### References
-[1] Shao Y, et al. BMC Med Inform Decis Mak 2019;19:128.
-[2] Arvanitakis Z, et al. JAMA 2019;322:1589.
-[3] Woodford HJ, George J. QJM 2007;100:469–84.
-[4] Janiesch C, et al. Electron Mark 2021;31:685–95.
+- [1] Shao Y, et al. BMC Med Inform Decis Mak 2019;19:128.
+- [2] Arvanitakis Z, et al. JAMA 2019;322:1589.
+- [3] Woodford HJ, George J. QJM 2007;100:469–84.
+- [4] Janiesch C, et al. Electron Mark 2021;31:685–95.
 
