@@ -70,7 +70,7 @@ The code successfully executes, providing a binary classification output for pot
 Challenges included class imbalance (addressed with SMOTE), beginner-level machine learning skills (mitigated through practice), computational limits (overcome with NVIDIA v100 GPU on ARC cluster), lack of precision (ongoing issue), uncertainty in optimizer and loss function choice (seeking expert advice), handling sensitive data (resolved by anonymizing data), and preventing overfitting (addressed with batch normalization and dropout).
 
 ### Appendix
-Due to data privacy, only the Jupyter notebook is available on Github.
+Due to data privacy, only my project Jupyter notebook is available on Github.
 
 ### References
 - [1] Shao Y, et al. BMC Med Inform Decis Mak 2019;19:128.
