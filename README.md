@@ -1,4 +1,7 @@
 # **Dementia-Classification-FFNN**
+_Gavin Thomas_ <br>
+_BMEN 619 Final Project Report_ <br>
+_November 2023_ <br>
 
 <img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/network_visualization.png?raw=true" width="400">
 
