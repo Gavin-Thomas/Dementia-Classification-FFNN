@@ -45,13 +45,21 @@ The project faced computational limitations, which were overcome by using the Ad
 Key learning points included implementing a feedforward neural network with batch normalization and dropout layers, using SMOTE for class imbalance, and applying one-hot encoding for birth-sex data.
 
 ### 5. Testing
-Routine checks were performed on dataset headers, column titles, and datatypes during data preprocessing. The model's performance was validated using holdout data (80% training, 20% validation) and tuned based on loss and accuracy metrics. Testing strategies included confusion matrix analysis and Receiver Operating Characteristic (ROC) curve assessment, using Visual Studio Code and Jupyter notebooks for error detection and code breakdown.
+Routine checks were performed on dataset headers, column titles, and datatypes during data preprocessing. The model's performance was validated using holdout data (80% training, 20% validation) and tuned based on loss and accuracy metrics. 
+<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/Loss_Acc.png?raw=true" alt="Figure 1: Loss & Accuracy as a function of Epoch" width="800"/>
+<br>
+**Figure 1: Loss & Accuracy as a function of Epoch**
+
+
+Testing strategies included confusion matrix analysis and Receiver Operating Characteristic (ROC) curve assessment, using Visual Studio Code and Jupyter notebooks for error detection and code breakdown.
 
 ### 6. Output
 The code successfully executes, providing a binary classification output for potential dementia cases. However, the current version exhibits a high type 1 error, indicating a tendency towards overdiagnosis, which will be a focus for improvement in my Master’s project.
 
-![Figure 1: Confusion Matrix](https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/ConfusionMatrix.png?raw=true) <br>
-**Figure 1: Confusion Matrix**
+<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/ConfusionMatrix.png?raw=true" alt="Figure 2: Confusion Matrix" width="500"/>
+<br>
+<strong>Figure 2: Confusion Matrix</strong>
+
 
 ### 7. Challenges and Solutions
 Challenges included class imbalance (addressed with SMOTE), beginner-level machine learning skills (mitigated through practice), computational limits (overcome with NVIDIA v100 GPU on ARC cluster), lack of precision (ongoing issue), uncertainty in optimizer and loss function choice (seeking expert advice), handling sensitive data (resolved by anonymizing data), and preventing overfitting (addressed with batch normalization and dropout).
