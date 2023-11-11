@@ -56,10 +56,15 @@ Testing strategies included confusion matrix analysis and Receiver Operating Cha
 ### 6. Output
 The code successfully executes, providing a binary classification output for potential dementia cases. However, the current version exhibits a high type 1 error, indicating a tendency towards overdiagnosis, which will be a focus for improvement in my Master’s project.
 
-<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/ConfusionMatrix.png?raw=true" alt="Figure 2: Confusion Matrix" width="500"/>
+<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/ConfusionMatrix.png?raw=true" alt="Figure 2: Confusion Matrix" width="450"/>
 <br>
 <strong>Figure 2: Confusion Matrix</strong>
 
+
+
+<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/ROC_curve.png?raw=true" alt="Figure 3: ROC Curve" width="400"/>
+<br>
+<strong>Figure 3: Receiver Operator Curve (ROC)</strong>
 
 ### 7. Challenges and Solutions
 Challenges included class imbalance (addressed with SMOTE), beginner-level machine learning skills (mitigated through practice), computational limits (overcome with NVIDIA v100 GPU on ARC cluster), lack of precision (ongoing issue), uncertainty in optimizer and loss function choice (seeking expert advice), handling sensitive data (resolved by anonymizing data), and preventing overfitting (addressed with batch normalization and dropout).
