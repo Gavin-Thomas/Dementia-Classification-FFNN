@@ -1,6 +1,6 @@
 # **Dementia-Classification-FFNN**
 
-<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/DallE-Neuron.png?raw=true" width="300">
+<img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/network_visualization.png?raw=true" width="400">
 
 [LINK TO JUPYTER NOTEBOOK](https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/DementiaFFNN.ipynb)
 
