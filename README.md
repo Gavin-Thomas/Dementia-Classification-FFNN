@@ -13,7 +13,7 @@ Recent studies indicate a significant underdiagnosis of dementia using tradition
 This project is driven by the need to develop a more accurate diagnostic tool for dementia, leveraging deep learning techniques. Given the rising prevalence and associated costs of dementia, there is a pressing need for more efficient and precise diagnostic methods.
 
 ### 2. Solution Design & Rationale
-The project utilizes a deep learning model, specifically designed for classification tasks such as dementia diagnosis. Python and PyTorch were selected for their extensive libraries and strong support in machine learning, complemented by the availability of past Electronic Health Record (EHR) data of over 1.2 million Albertans aged 55 and above, formatted in tables.
+The project utilizes a deep learning model, specifically designed for classification tasks such as dementia diagnosis. Python and PyTorch were selected for their extensive libraries and strong support in machine learning, complemented by the availability of past Electronic Health Record (EHR) data (2008-2013) of over 1.2 million Albertans aged 55 and above, formatted in tables.
 
 This project serves as a precursor to my thesis, which will focus on a multi-class classification problem of dementia type and severity using multimodal data. This includes both structured tabular data, similar to what was used in this project (though not the same dataset), and unstructured free text data from clinical patient notes. To build a foundation for this more complex thesis project, I started with a simpler unimodal binary dementia classifier using deep learning, aiming to grasp the basics and ensure the model's code is functional.
 
