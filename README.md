@@ -50,6 +50,9 @@ Routine checks were performed on dataset headers, column titles, and datatypes d
 ### 6. Output
 The code successfully executes, providing a binary classification output for potential dementia cases. However, the current version exhibits a high type 1 error, indicating a tendency towards overdiagnosis, which will be a focus for improvement in my Master’s project.
 
+![Figure 1: Confusion Matrix](https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/ConfusionMatrix.png?raw=true) <br>
+**Figure 1: Confusion Matrix**
+
 ### 7. Challenges and Solutions
 Challenges included class imbalance (addressed with SMOTE), beginner-level machine learning skills (mitigated through practice), computational limits (overcome with NVIDIA v100 GPU on ARC cluster), lack of precision (ongoing issue), uncertainty in optimizer and loss function choice (seeking expert advice), handling sensitive data (resolved by anonymizing data), and preventing overfitting (addressed with batch normalization and dropout).
 
