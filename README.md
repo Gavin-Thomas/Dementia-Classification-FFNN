@@ -15,7 +15,15 @@ The project utilizes a deep learning model, specifically designed for classifica
 This project serves as a precursor to my thesis, which will focus on a multi-class classification problem of dementia type and severity using multimodal data. This includes both structured tabular data, similar to what was used in this project (though not the same dataset), and unstructured free text data from clinical patient notes. To build a foundation for this more complex thesis project, I started with a simpler unimodal binary dementia classifier using deep learning, aiming to grasp the basics and ensure the model's code is functional.
 
 ### 3. Software Design / Planning
-The project began with converting a dataset from SAS file format to CSV, utilizing pandas for data manipulation and SAS7BDAT for reading SAS files. A function was created to convert SAS files to CSV, ensuring proper file management and converting the data into a pandas DataFrame, which was then saved as a CSV file without row indices.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/Gavin-Thomas/Dementia-Classification-FFNN/main/misc/Untitled%20diagram-2023-11-10-230010.png" alt="Software Design/Planning Image" style="max-height: 600px; width: auto;"/>
+    </td>
+    <td>
+      <h2>Software Design/Planning</h2>
+      <p>The project began with converting a dataset from SAS file format to CSV, utilizing pandas for data manipulation and SAS7BDAT for reading SAS files. A function was created to convert SAS files to CSV, ensuring proper file management and converting the data into a pandas DataFrame, which was then saved as a CSV file without row indices.
 
 The dataset underwent refinement, with irrelevant columns being dropped to streamline the data. Data types of each column were checked for consistency, and missing values were addressed. The 'GENDER' column was processed using one-hot encoding to convert categorical data into a format more suitable for statistical models. This processed data was then concatenated with the original DataFrame, replacing the initial 'GENDER' column. The cleaned data was saved as a new CSV file for further use. For my Master’s project, I will use a more recent dataset that includes considerations for sex/gender, incorporating pronouns, gender identity, and biological sex, including intersex.
 
@@ -23,7 +31,10 @@ Prior to model training, the class distribution in the training and test sets wa
 
 The core phase involved training a feedforward neural network, setting up a loss function and optimizer, and implementing data batching, loss calculation, accuracy tracking, learning rate adjustments, and model saving. Batch normalization and dropout techniques were incorporated to enhance performance and prevent overfitting.
 
-The model's performance was evaluated using ROC curves and confusion matrices to assess its class differentiation ability and overall predictive accuracy.
+The model's performance was evaluated using ROC curves and confusion matrices to assess its class differentiation ability and overall predictive accuracy.</p>
+    </td>
+  </tr>
+</table>
 
 ### 4. Software Production
 The project faced computational limitations, which were overcome by using the Advanced Research Computing (ARC) facility. A persistent challenge is the model's lack of precision, or high type 1 error, leading to overdiagnosis in some cases.
