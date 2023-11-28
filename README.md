@@ -32,7 +32,7 @@ The dataset underwent refinement, with irrelevant columns being dropped to strea
 
 Prior to model training, the class distribution in the training and test sets was examined to ensure a balanced dataset, crucial for unbiased predictions. The data preparation for machine learning included normalizing specific columns, addressing class imbalance with SMOTE (Synthetic Minority Over-sampling Technique), and splitting the dataset into training and test sets, which were then converted into PyTorch tensors.
 
-The core phase involved training a feedforward neural network, setting up a loss function and optimizer, and implementing data batching, loss calculation, accuracy tracking, learning rate adjustments, and model saving. Batch normalization and dropout techniques were incorporated to enhance performance and prevent overfitting.
+The core phase of my project involved training a feedforward neural network, setting up a loss function and optimizer, and implementing data batching, loss calculation, accuracy tracking, learning rate adjustments, and model saving. Batch normalization and dropout techniques were incorporated to enhance performance and prevent overfitting.
 
 The model's performance was evaluated using ROC curves and confusion matrices to assess its class differentiation ability and overall predictive accuracy.</p>
     </td>
@@ -40,7 +40,7 @@ The model's performance was evaluated using ROC curves and confusion matrices to
 </table>
 
 ### 4. Software Production
-The project faced computational limitations, which were overcome by using the Advanced Research Computing (ARC) facility. A persistent challenge is the model's lack of precision, or high type 1 error, leading to overdiagnosis in some cases.
+My project faced computational limitations, which were overcome by using the Advanced Research Computing (ARC) facility. A persistent challenge is the model's lack of precision, or high type 1 error, leading to overdiagnosis in some cases.
 
 Key learning points included implementing a feedforward neural network with batch normalization and dropout layers, using SMOTE for class imbalance, and applying one-hot encoding for birth-sex data.
 
@@ -67,7 +67,7 @@ The code successfully executes, providing a binary classification output for pot
 <strong>Figure 3: Receiver Operator Curve (ROC)</strong>
 
 ### 7. Challenges and Solutions
-Challenges included class imbalance (addressed with SMOTE), beginner-level machine learning skills (mitigated through practice), computational limits (overcome with NVIDIA v100 GPU on ARC cluster), lack of precision (ongoing issue), uncertainty in optimizer and loss function choice (seeking expert advice), handling sensitive data (resolved by anonymizing data), and preventing overfitting (addressed with batch normalization and dropout).
+Challenges included class imbalance (addressed with SMOTE), beginner-level machine learning skills (mitigated through practice - I learned a lot through doing this project), extremely buggy code (which took a lot of banging my head against the wall, but eventually I got it to work), computational limits (overcome with NVIDIA v100 GPU on ARC cluster), lack of precision (ongoing issue - will look at the decision threshold, and maybe changing to an ensemble technique), uncertainty in optimizer and loss function choice (seeking expert advice), handling sensitive data (resolved by anonymizing data), and preventing overfitting (addressed with batch normalization and dropout).
 
 ### Appendix
 Due to data privacy, only my project Jupyter notebook is available on Github.
