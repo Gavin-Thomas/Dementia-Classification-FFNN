@@ -1,4 +1,4 @@
-# **Dementia-Classification-FFNN**
+# **Dementia Classification Feed-forward Neural Network**
 _Gavin Thomas_ <br>
 
 The following is my attempt at making a feed-forward neural network capable of determining dementia presence. Enjoy!
