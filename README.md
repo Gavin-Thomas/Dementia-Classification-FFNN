@@ -1,6 +1,8 @@
 # **Dementia-Classification-FFNN**
 _Gavin Thomas_ <br>
 
+The following is my attempt at making a feed-forward neural network capable of determining dementia presence. Enjoy!
+
 <img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/network_visualization.png?raw=true" width="400">
 
 [LINK TO JUPYTER NOTEBOOK](https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/DementiaFFNN.ipynb)
@@ -13,7 +15,7 @@ This project is driven by the need to develop a more accurate diagnostic tool fo
 ### 2. Solution Design & Rationale
 My project utilizes a deep learning model, specifically designed for classification tasks such as dementia diagnosis. Python and PyTorch were selected for their extensive libraries and strong support in machine learning, complemented by the availability of past Electronic Health Record (EHR) data (2008-2013) of over 1.2 million Albertans aged 55 and above, formatted in tables.
 
-This project serves as a precursor to my thesis, which will focus on a multi-class classification problem of dementia type and severity using multimodal data. This includes both structured tabular data, similar to what was used in this project (though not the same dataset), and unstructured free text data from clinical patient notes. To build a foundation for this more complex thesis project, I started with a simpler unimodal binary dementia classifier using deep learning, aiming to grasp the basics and ensure the model's code is functional.
+This project is just a bit of practice that will serve as a precursor to my thesis, which will focus on a multi-class classification problem of dementia type and severity using multimodal data. This includes both structured tabular data, similar to what was used in this project (though not the same dataset), and unstructured free text data from clinical patient notes. To build a foundation for this more complex thesis project, I started with a simpler unimodal binary dementia classifier using deep learning, aiming to grasp the basics and ensure the model's code is functional.
 
 ### 3. Software Design / Planning
 
