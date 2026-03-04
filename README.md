@@ -1,7 +1,7 @@
 # **Dementia Classification Feed-forward Neural Network**
 _GT_ <br>
 
-The following is my attempt at making a feed-forward neural network capable of determining dementia presence. Enjoy!
+The following is my attempt at making a feed-forward neural network capable of determining if dementia is present.
 
 <img src="https://github.com/Gavin-Thomas/Dementia-Classification-FFNN/blob/main/misc/network_visualization.png?raw=true" width="400">
 
